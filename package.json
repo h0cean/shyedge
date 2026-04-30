@@ -1,0 +1,10 @@
+{
+  "name": "shyedge",
+  "version": "1.0.0",
+  "description": "one shy edge",
+  
+
+  "type": "module",
+  "private": true,
+  "license": "MIT"
+}

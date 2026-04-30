@@ -1,5 +1,6 @@
 //
 
+
 export const config = {
   api: { bodyParser: false },
   supportsResponseStreaming: true,
@@ -27,5 +28,5 @@ const STRIP_HEADERS = new Set([
 export default async function handler(req, res) {
   res.statusCode = 420;
   return res.end("yupe im working bro ")
-  
 }
+
